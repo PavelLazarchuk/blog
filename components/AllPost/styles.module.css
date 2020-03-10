@@ -1,0 +1,27 @@
+.error {
+  color: red;
+  text-align: center;
+}
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #c9ced9;
+}
+
+.postTitle {
+  text-align: center;
+  color: #c9ced9;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.postText {
+  color: #c9ced9;
+  margin: 10px 0;
+}
+
+.postLink {
+  color: #26a69a;
+}

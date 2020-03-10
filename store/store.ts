@@ -7,8 +7,6 @@ const rootReducer = combineReducers({
 	post: postReducer,
 });
 
-// const enhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
 const store = createStore(rootReducer, undefined, compose(applyMiddleware(thunk)));
 
 export default store;

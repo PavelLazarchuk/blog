@@ -1,0 +1,28 @@
+.post {
+  width: 80%;
+  padding: 10px 20px;
+  margin: 0 auto 20px auto;
+}
+
+.text {
+  color: #c9ced9;
+  margin: 10px 0;
+  line-height: 1.5;
+  border-bottom: 1px solid #c9ced9;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.comment {
+  text-align: center;
+  color: #c9ced9;
+  margin: 8px 0;
+}

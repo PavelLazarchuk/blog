@@ -3,11 +3,11 @@ import { Provider } from 'react-redux';
 
 import store from '../store';
 
-const withRedux = PageComponent => {
+const withRedux = Component => {
 	return ({ ...props }) => {
 		return (
 			<Provider store={store}>
-				<PageComponent {...props} />
+				<Component {...props} />
 			</Provider>
 		);
 	};
